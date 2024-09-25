@@ -1,0 +1,23 @@
+/*
+MY COLOR PALETTE
+Dark Blue - #091540
+Forest Green - #157145
+Silver - #CECECE
+Blood Red - #9A031E
+Bark Brown - #844936
+*/
+body {
+    background-color: #157145; text-align: center; 
+}
+button {
+    background-color: #CECECE; color: #091540; font-family: "Montserrat", sans-serif;
+font-weight: 300; width: 200px; padding: 20px; margin-top: 50 px; border: none; border-radius: 8px}
+button:hover {
+    background-color: #9A031E
+}
+h1 {
+     font-family: "Open Sans", sans-serif;
+}
+h2 {
+     font-family: "Open Sans", sans-serif;
+}
