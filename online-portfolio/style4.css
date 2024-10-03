@@ -1,1 +1,11 @@
-h1 {font-family: Barlow; }
+/*
+MY COLOR PALETTE
+Black - #000000
+Dark grey - #909090
+Pale green - #D7F7A8
+White - #FFFFFF
+*/
+h1 {font-family: Barlow}
+h2 {font-family: DM Sans}
+img {width:100%}
+button {background-color: #FFFFFF; color: #FFFFFF; font-family: "DM Sans"}
