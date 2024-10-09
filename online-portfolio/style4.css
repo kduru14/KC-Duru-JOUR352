@@ -12,6 +12,9 @@ White - #FFFFFF
     h2 {
         font-family: DM Sans;
     }
+    h4 {
+        border-bottom: 2px solid black
+    }
 
     img {
         width: 100%;
@@ -30,8 +33,9 @@ White - #FFFFFF
     #contact {
         background-color: #d7f7a8;
     }
-    #button {
-        align-content: center;
+    button {
+        display:block;
+        margin:auto
     }
     #navigation {
         background-color: #909090;
