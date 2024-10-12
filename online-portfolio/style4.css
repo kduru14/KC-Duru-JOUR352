@@ -1,19 +1,26 @@
-   /*
+/*
 MY COLOR PALETTE
 Black - #000000
 Dark grey - #909090
 Pale green - #D7F7A8
 White - #FFFFFF
 */
-@media {
-    h1 {
+@media all {
+    h1,
+    h6,
+    p,
+    ul {
         font-family: Barlow;
     }
-    h2 {
+    h2,
+    h3,
+    h4,
+    h5,
+    a {
         font-family: DM Sans;
     }
     h4 {
-        border-bottom: 2px solid black
+        border-bottom: 2px solid black;
     }
 
     img {
@@ -22,6 +29,7 @@ White - #FFFFFF
     #contact {
         background-color: #ffffff;
         color: #ffffff;
+        text-decoration: none;
         font-family: "DM Sans";
     }
     #topper {
@@ -30,15 +38,48 @@ White - #FFFFFF
     #title {
         background-color: #ffffff;
     }
-    #contact {
-        background-color: #d7f7a8;
-    }
     button {
-        display:block;
-        margin:auto
+        display: block;
+        margin: auto;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    button a {
+        text-decoration: none;
+        color: #909090;
     }
     #navigation {
+        display: block;
+        margin: auto;
         background-color: #909090;
+        text-align: center;
+    }
+    #navigation a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .jobtitle {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    #sections {
+        background-color: #d7f7a8;
+    }
+    #header1 {
+        background-color: #ffffff;
+        font-weight: bold;
+    }
+    #header2 {
+        background-color: #ffffff;
+        font-weight: bold;
+    }
+    #header3 {
+        background-color: #ffffff;
+        font-weight: bold;
+    }
+    #footer {
+        background-color: #909090;
+        color: #ffffff;
         text-align: center;
     }
 }
