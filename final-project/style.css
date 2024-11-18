@@ -1,20 +1,47 @@
 img {
     width: 100%;
+    height: 100%;
 }
 #topper {
-    background-color: #000000;
+    background-color: #1b1b1b;
     color: #ffffff;
-    margin:auto
+    margin: auto;
+    place-content: center;
 }
 h1 {
     margin: 20px 20px 20px 20px;
     align-content: center;
+    font-family: "DM Serif Display";
+    font-size: 60px;
 }
 h2 {
-    margin: 20px 20px 50px 20px; border-bottom: 3px solid darkgoldenrod;
+    margin: 20px 20px 50px 20px;
+    border-bottom: 3px solid #ffcb71;
+    font-family: "DM Serif Display";
+    font-size: 25px;
 }
-p{
+h3 {
     margin: 20px 20px 20px 20px;
     align-content: center;
-    color: darkgoldenrod;
+    color: #ffcb71;
+    font-family: "Work Sans";
+    font-weight: normal;
+    font-size: 18px;
+}
+h4 {
+    font-family: "Work Sans";
+    font-size: 12px;
+}
+#thepitch a {
+    color: #ffcb71;
+}
+p,
+h5 {
+    margin: 20px 20px 20px 20px;
+    font-family: "Work Sans";
+}
+
+li {
+    font-family: "Work Sans";
+    margin: 0px 20px 0px 20px;
 }
