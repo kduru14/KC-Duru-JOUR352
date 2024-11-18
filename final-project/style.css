@@ -1,0 +1,20 @@
+img {
+    width: 100%;
+}
+#topper {
+    background-color: #000000;
+    color: #ffffff;
+    margin:auto
+}
+h1 {
+    margin: 20px 20px 20px 20px;
+    align-content: center;
+}
+h2 {
+    margin: 20px 20px 50px 20px; border-bottom: 3px solid darkgoldenrod;
+}
+p{
+    margin: 20px 20px 20px 20px;
+    align-content: center;
+    color: darkgoldenrod;
+}
