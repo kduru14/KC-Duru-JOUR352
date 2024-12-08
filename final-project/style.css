@@ -1,7 +1,6 @@
 @media {
     img {
         width: 100%;
-        height: 100%;
     }
     #topper {
         background-color: #1b1b1b;
@@ -37,10 +36,15 @@
     #thepitch a {
         color: #ffcb71;
     }
-    p,
-    h5 {
+    p {
         margin: 20px 20px 20px 20px;
         font-family: "Work Sans";
+    }
+    h5 {
+        margin: 20px 20px 20px 20px;
+        border-bottom: 3px solid #ffcb71;
+        font-family: "DM Serif Display";
+        font-size: 25px;
     }
 
     li {
@@ -52,12 +56,26 @@
         font-size: 30px;
         text-align: center;
         border: 10px solid #ffcb71;
+        font-family: "DM Serif Display";
+    }
+    #story {
+        width: 100%;
+    }
+    #grammys {
+        background-image: url(Screen%20Shot%202024-11-18%20at%2012.56.10%20PM.png);
+        background-size: cover;
+        background-position: center;
+    }
+    #space {
+        height: 200px;
     }
 }
 
 @media (min-width: 576px) {
     img {
         width: 100%;
-        height: 100%;
+    }
+    #story {
+        width: 70%;
     }
 }
